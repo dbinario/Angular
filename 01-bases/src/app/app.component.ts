@@ -1,10 +1,17 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+
+  selector:'app-root',
+  //para especificar un template
+  templateUrl:'app.component.html'
+  //para mandar algo directo a la aplicacion template sin uri:
+  
+
+
 })
 export class AppComponent {
-  title = 'bases';
+  
+
+  
 }
