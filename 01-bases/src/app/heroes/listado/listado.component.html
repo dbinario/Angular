@@ -11,7 +11,7 @@
 
 </ul>
 
-<div *ngIf="heroeBorrado">
+<div *ngIf="heroeBorrado; else noBorrado">
 
     <h3>Héroe Borrado</h3>
     <span>
@@ -25,6 +25,17 @@
     </span>
 
 </div>
+
+
+<ng-template #noBorrado>
+
+    <h3>No ha Borrado nada</h3>
+
+</ng-template>
+
+
+
+   
 
 <button (click)="borrerHeroe()">
 
