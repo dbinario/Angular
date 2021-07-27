@@ -17,5 +17,12 @@ export class SidebarComponent  {
 
   }
 
+  buscar(termino:string){
+
+    this.GiftsService.buscarGifts(termino);
+
+
+  }
+
 
 }
