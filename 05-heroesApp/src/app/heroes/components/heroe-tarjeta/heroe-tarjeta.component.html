@@ -22,10 +22,15 @@
     </mat-card-content>
 
     <mat-card-actions>
-        <button mat-button color="warn">
+        <button mat-button 
+                [routerLink]="['/heroes',heroe.id]"
+                color="warn">
             Leer más...
         </button>
-        <button mat-button color="infp">
+        <button 
+            mat-button 
+            [routerLink]="['/heroes/editar',heroe.id]"
+            color="infp">
             Editar
         </button>
     </mat-card-actions>
