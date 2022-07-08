@@ -166,6 +166,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "superhero": "Prueba",
+      "alter_ego": "Prueba",
+      "characters": "Prueba",
+      "publisher": "Marvel Comics",
+      "first_appearance": "Prueba",
+      "alt_img": "https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/social_share_large/public/purina-por-que-los-perros-mueven-la-cola.png?itok=Kw0lwckl",
+      "id": "9Ft-X9v"
     }
   ]
 }
